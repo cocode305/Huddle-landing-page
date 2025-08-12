@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-sm: 20rem; /* 320px */
+    --breakpoint-md: 26.75rem; /* 428px */
+    --breakpoint-2md: 40rem; /* 640px */
+    --breakpoint-lg: 48rem; /* 768px */
+    --breakpoint-xl: 64rem; /* 1024px */
+    --breakpoint-2xl: 80rem; /* 1280px */
+
+    --color-accent: #ff52bf; /* Pink */
+    --color-base: #00252e; /* Dark Cyan */
+    --color-primary: #ebfbff; /* Pale Cyan */
+    --color-secondary: #808d99; /* Grayish Blue */
+
+    --font-poppins: "Poppins", sans-serif; 
+    --font-openSans:  "Open Sans", sans-serif; 
+}
+
+@layer components {
+    .btn {
+        @apply rounded-full text-center cursor-pointer;
+    }
+
+    .mobile-bg {
+        @apply bg-[url('../images/bg-mobile.svg')] bg-cover bg-center bg-no-repeat
+    }
+
+    .desktop-bg {
+        @apply bg-[url('../images/bg-desktop.svg')] bg-cover bg-center bg-no-repeat
+    }
+}
