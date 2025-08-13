@@ -23,10 +23,14 @@
     }
 
     .mobile-bg {
-        @apply bg-[url('../images/bg-mobile.svg')] bg-cover bg-center bg-no-repeat
+        @apply bg-[url('../images/bg-mobile.svg')] bg-cover bg-center bg-no-repeat;
     }
 
     .desktop-bg {
-        @apply bg-[url('../images/bg-desktop.svg')] bg-cover bg-center bg-no-repeat
+        @apply bg-[url('../images/bg-desktop.svg')] bg-cover bg-center bg-no-repeat;
+    }
+
+    .card {
+        @apply flex flex-col xl:flex-row justify-between items-center mt-10 gap-10 shadow p-10 2xl:px-16 rounded-2xl w-full;
     }
 }

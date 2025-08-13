@@ -35,8 +35,8 @@ Crop/optimize/edit your image however you like, add it to your project, and upda
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/cocode305/Huddle-landing-page.git)
+- Live Site URL: [Add live site URL here](https://cocode305.github.io/Huddle-landing-page/)
 
 ## My process
 
@@ -90,8 +90,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Collins Eneluwe](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@xo_co_co](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@cocode305](https://www.frontendmentor.io/profile/cocode305)
+- Twitter - [@xo_co_co](https://x.com/xo_co_co)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
