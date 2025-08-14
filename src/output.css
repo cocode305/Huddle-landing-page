@@ -274,6 +274,9 @@
   .px-7 {
     padding-inline: calc(var(--spacing) * 7);
   }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
+  }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
   }
@@ -411,11 +414,6 @@
       padding-block: calc(var(--spacing) * 2.5);
     }
   }
-  .lg\:pl-16 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 16);
-    }
-  }
   .lg\:text-3xl {
     @media (width >= 48rem) {
       font-size: var(--text-3xl);
@@ -477,11 +475,6 @@
   .xl\:px-0 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 0);
-    }
-  }
-  .xl\:pl-10 {
-    @media (width >= 64rem) {
-      padding-left: calc(var(--spacing) * 10);
     }
   }
   .xl\:pl-16 {
@@ -555,15 +548,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: calc(var(--spacing) * 20);
     border-radius: var(--radius-2xl);
     padding: calc(var(--spacing) * 10);
-    --tw-shadow: 0 0 11px 5px var(--tw-shadow-color, rgba(0,0,0,0.3));
+    --tw-shadow: 0 0 7px 5px var(--tw-shadow-color, rgba(0,0,0,0.2));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     @media (width >= 64rem) {
       flex-direction: row;
-    }
-    @media (width >= 64rem) {
-      gap: calc(var(--spacing) * 20);
     }
     @media (width >= 80rem) {
       padding-inline: calc(var(--spacing) * 16);

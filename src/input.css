@@ -31,6 +31,6 @@
     }
 
     .card {
-        @apply flex flex-col xl:flex-row justify-between items-center mt-10 xl:gap-20 shadow-[0_0_11px_5px_rgba(0,0,0,0.3)] p-10 2xl:px-16 rounded-2xl w-full;
+        @apply flex flex-col xl:flex-row justify-between items-center mt-10 gap-20 shadow-[0_0_7px_5px_rgba(0,0,0,0.2)] p-10 2xl:px-16 rounded-2xl w-full;
     }
 }
