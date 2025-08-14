@@ -22,6 +22,10 @@
         @apply rounded-full text-center cursor-pointer;
     }
 
+    .btn-primary {
+        @apply bg-accent text-primary font-poppins text-lg xl:text-xl font-semibold px-8 py-3;
+    }
+
     .mobile-bg {
         @apply bg-[url('../images/bg-mobile.svg')] bg-cover bg-center bg-no-repeat;
     }

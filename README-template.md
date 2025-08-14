@@ -35,8 +35,8 @@ Crop/optimize/edit your image however you like, add it to your project, and upda
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cocode305/Huddle-landing-page.git)
-- Live Site URL: [Add live site URL here](https://cocode305.github.io/Huddle-landing-page/)
+- Solution URL: [Solution URL](https://github.com/cocode305/Huddle-landing-page.git)
+- Live Site URL: [Live Site URL](https://cocode305.github.io/Huddle-landing-page/)
 
 ## My process
 
@@ -49,9 +49,21 @@ Crop/optimize/edit your image however you like, add it to your project, and upda
 
 ### What I learned
 - I had to learn how to set up my own custom breakpoints, colors and font family.
-- I encountered some challenges using bg-[url('')] to add a background image to the project, had to use Chatgpt to troubleshoot why it wasn't working. Turns out the file path wasn't correct and though gpt gave options to use a config file, I settled for using a custom class to define the background images instead.
+
 - I also learnt to use @apply to create reusable classes to reduce filling my HTML with too much class utilities.
 
+### Challenge 1
+// Background Image File Path
+- I encountered some challenges using bg-[url('')] to add a background image to the project, had to use Chatgpt to troubleshoot why it wasn't working. Turns out the file path wasn't correct and though gpt gave options to use a config file, I settled for using a custom class to define the background images instead.
+
+#### How I solved it
+
+
+### Challenge 2
+- I couldn't get the order of the third card right. I wanted the image to come first on mobile screens then on wider screens, the text first.
+
+#### How I solved it
+- When I used the order utility class, I only added it to the image container, that didn't give me the result I wanted, so I tried adding the order class to the card content to and it worked fine.
 
 To see how you can add code snippets, see below:
 
