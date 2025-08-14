@@ -211,11 +211,8 @@
   .table {
     display: table;
   }
-  .h-96 {
-    height: calc(var(--spacing) * 96);
-  }
-  .h-auto {
-    height: auto;
+  .h-1\/2 {
+    height: calc(1/2 * 100%);
   }
   .h-full {
     height: 100%;
@@ -232,14 +229,8 @@
   .max-w-full {
     max-width: 100%;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .items-center {
     align-items: center;
@@ -252,10 +243,6 @@
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-accent {
     background-color: var(--color-accent);
@@ -330,9 +317,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
@@ -417,44 +401,9 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
-  .lg\:order-1 {
-    @media (width >= 48rem) {
-      order: 1;
-    }
-  }
-  .lg\:px-2 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 2);
-    }
-  }
-  .lg\:px-3 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 3);
-    }
-  }
-  .lg\:px-4 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 4);
-    }
-  }
   .lg\:px-5 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 5);
-    }
-  }
-  .lg\:px-16 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 16);
-    }
-  }
-  .lg\:px-32 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 32);
-    }
-  }
-  .lg\:px-48 {
-    @media (width >= 48rem) {
-      padding-inline: calc(var(--spacing) * 48);
     }
   }
   .lg\:py-2\.5 {
@@ -462,29 +411,9 @@
       padding-block: calc(var(--spacing) * 2.5);
     }
   }
-  .lg\:pr-10 {
+  .lg\:pl-16 {
     @media (width >= 48rem) {
-      padding-right: calc(var(--spacing) * 10);
-    }
-  }
-  .lg\:pr-32 {
-    @media (width >= 48rem) {
-      padding-right: calc(var(--spacing) * 32);
-    }
-  }
-  .lg\:pr-48 {
-    @media (width >= 48rem) {
-      padding-right: calc(var(--spacing) * 48);
-    }
-  }
-  .lg\:pl-10 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 10);
-    }
-  }
-  .lg\:pl-48 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 48);
+      padding-left: calc(var(--spacing) * 16);
     }
   }
   .lg\:text-3xl {
@@ -505,6 +434,11 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .xl\:order-1 {
+    @media (width >= 64rem) {
+      order: 1;
+    }
+  }
   .xl\:order-2 {
     @media (width >= 64rem) {
       order: 2;
@@ -513,6 +447,11 @@
   .xl\:flex {
     @media (width >= 64rem) {
       display: flex;
+    }
+  }
+  .xl\:h-96 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 96);
     }
   }
   .xl\:w-1\/2 {
@@ -538,6 +477,16 @@
   .xl\:px-0 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:pl-10 {
+    @media (width >= 64rem) {
+      padding-left: calc(var(--spacing) * 10);
+    }
+  }
+  .xl\:pl-16 {
+    @media (width >= 64rem) {
+      padding-left: calc(var(--spacing) * 16);
     }
   }
   .xl\:text-left {
@@ -606,13 +555,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: calc(var(--spacing) * 10);
     border-radius: var(--radius-2xl);
     padding: calc(var(--spacing) * 10);
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+    --tw-shadow: 0 0 11px 5px var(--tw-shadow-color, rgba(0,0,0,0.3));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 20);
     }
     @media (width >= 80rem) {
       padding-inline: calc(var(--spacing) * 16);
@@ -638,11 +589,6 @@
 @property --tw-skew-y {
   syntax: "*";
   inherits: false;
-}
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-font-weight {
   syntax: "*";
@@ -783,7 +729,6 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
-      --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
