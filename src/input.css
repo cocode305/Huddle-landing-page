@@ -27,14 +27,18 @@
     }
 
     .mobile-bg {
-        @apply bg-[url('../images/bg-mobile.svg')] bg-cover bg-center bg-no-repeat;
+        @apply bg-[url('../images/bg-hero-mobile.svg')] bg-cover bg-center bg-no-repeat;
     }
 
     .desktop-bg {
-        @apply bg-[url('../images/bg-desktop.svg')] bg-cover bg-center bg-no-repeat;
+        @apply bg-[url('/images/bg-hero-desktop.svg')] bg-cover bg-center bg-no-repeat;
     }
 
     .card {
         @apply flex flex-col xl:flex-row justify-between items-center mt-10 gap-20 shadow-[0_0_7px_5px_rgba(0,0,0,0.2)] p-10 2xl:px-16 rounded-2xl w-full;
+    }
+
+    .social-icons {
+        @apply ring-primary ring-1 rounded-full border text-3xl xl:text-2xl w-12 xl:w-10 h-12 xl:h-10 p-5 flex justify-center items-center
     }
 }

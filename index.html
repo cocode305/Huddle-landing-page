@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/output.css">
@@ -16,37 +18,42 @@
 
   <!-- Fontawesome CDN Script -->
   <script src="https://kit.fontawesome.com/6f18932376.js" crossorigin="anonymous"></script>
-  
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
+
 <body class="min-h-screen font-openSans">
   <div>
-    <header class="mobile-bg xl:desktop-bg bg-no-repeat bg-cover bg-center w-full">
+    <header class="mobile-bg xl:desktop-bg w-full">
       <div class="p-7 md:p-10 xl:p-16"> <!-- Container -->
         <div class="flex justify-between items-center">
           <div class="w-20 md:w-30 xl:w-40"> <!-- Logo -->
-             <img src="./images/logo.svg" alt="Logo" class="w-full">
+            <img src="./images/logo.svg" alt="Logo" class="w-full">
           </div>
-  
-          <button class="btn px-3 md:px-4 lg:px-5 py-1 md:py-1.5 lg:py-2.5 bg-white text-xs md:text-lg lg:text-xl  font-bold shadow hover:shadow-xl text-base transition-shadow duration-500">Try It Free</button>
+
+          <button
+            class="btn px-3 md:px-4 lg:px-5 py-1 md:py-1.5 lg:py-2.5 bg-white text-xs md:text-lg lg:text-xl  font-bold shadow-[0_0_4px_3px_rgba(0,0,0,0.2)] hover:shadow-[0_0_3px_3px_rgba(0,0,0,0.3)] text-base transition-shadow duration-500">Try
+            It Free</button>
         </div>
-  
+
         <div class="px-3 md:px-10 xl:px-0 mt-10 xl:flex items-center gap-5"> <!-- Hero -->
-          
-           <div class="text-center xl:text-left mx-auto xl:w-1/2"> <!-- Hero Contents -->
-             <h2 class="text-xl md:text-2xl 2md:text-4xl xl:text-3xl 2xl:text-4xl lg:text-5xl text-base font-bold font-poppins">Build The Community <br> Your Fans Will Love</h2>
-  
+
+          <div class="text-center xl:text-left mx-auto xl:w-1/2"> <!-- Hero Contents -->
+            <h2
+              class="text-xl md:text-2xl 2md:text-4xl xl:text-3xl 2xl:text-4xl lg:text-5xl text-base font-bold font-poppins">
+              Build The Community <br> Your Fans Will Love</h2>
+
             <p class="text-sm md:text-lg xl:text-sm 2xl:text-lg mt-5 text-base">
               Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
               Create connections with your users as you engage in genuine discussion.
             </p>
-  
+
             <button class="btn mt-7 xl:mt-10 btn-primary">Get Started For Free</button>
-           </div>
-  
-           <div class="mt-10 xl:w-2/3"> <!-- Hero Image -->
-             <img class="w-full" src="./images/illustration-mockups.svg" alt="Hero Image">
-           </div>
+          </div>
+
+          <div class="mt-10 xl:w-2/3"> <!-- Hero Image -->
+            <img class="w-full" src="./images/illustration-mockups.svg" alt="Hero Image">
+          </div>
         </div>
       </div>
     </header>
@@ -61,42 +68,49 @@
             <div class="card">
               <!-- Image Container -->
               <div class="order-1 xl:order-2 h-1/2 xl:h-96 flex justify-center items-center">
-                <img class="max-w-full h-full object-contain" src="./images/illustration-grow-together.svg" alt="Grow Together Image">
+                <img class="max-w-full h-full object-contain" src="./images/illustration-grow-together.svg"
+                  alt="Grow Together Image">
               </div>
-          
+
               <!-- Card Text Contents -->
               <div class="order-2 xl:order-1 px-10 xl:px-0 text-center xl:text-left w-full xl:w-2/3">
                 <h4 class="text-base font-bold text-lg md:text-2xl 2md:text-3xl lg:text-5xl">Grow Together</h4>
-                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">Generate meaningful discussions with your audience and build a strong, loyal community.
+                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">Generate meaningful
+                  discussions with your audience and build a strong, loyal community.
                   Think of the insightful conversations you miss out on with afeedback form.</p>
               </div>
             </div>
-          
+
             <!-- Conversation Card -->
-            <div class="card"> 
+            <div class="card">
               <!-- Image Container -->
-              <div class="h-1/2 xl:h-96 flex justify-center items-center"> 
-                <img class="max-w-full h-full object-contain" src="./images/illustration-flowing-conversation.svg" alt="Grow Together Image">
+              <div class="h-1/2 xl:h-96 flex justify-center items-center">
+                <img class="max-w-full h-full object-contain" src="./images/illustration-flowing-conversation.svg"
+                  alt="Grow Together Image">
               </div>
-          
+
               <!-- Card Text Contents -->
               <div class="text-center xl:text-left w-full xl:w-2/3 px-10 xl:px-0">
                 <h4 class="text-base font-bold text-lg md:text-2xl 2md:text-3xl lg:text-5xl">Flowing Conversations</h4>
-                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">You wouldn't paginate a conversation in real life, so why do it online? Our threads
+                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">You wouldn't
+                  paginate a conversation in real life, so why do it online? Our threads
                   have just-in-time loading for a more natural flow.</p>
               </div>
             </div>
 
             <!-- User Card -->
-            <div class="card"> 
-              
+            <div class="card">
+
               <div class="order-1 xl:order-2 h-1/2 xl:h-96 flex justify-center items-center"> <!-- Image Container -->
-                <img class="max-w-full h-full object-contain" src="./images/illustration-your-users.svg" alt="Grow Together Image">
+                <img class="max-w-full h-full object-contain" src="./images/illustration-your-users.svg"
+                  alt="Grow Together Image">
               </div>
 
-              <div class="order-2 xl:order-1 xl:pl-16 text-center xl:text-left w-full xl:w-2/3 h-1/2 px-10 xl:px-0"> <!-- Card Text Contents -->
+              <div class="order-2 xl:order-1 xl:pl-16 text-center xl:text-left w-full xl:w-2/3 h-1/2 px-10 xl:px-0">
+                <!-- Card Text Contents -->
                 <h4 class="text-base font-bold text-lg md:text-2xl 2md:text-3xl lg:text-5xl">Your Users</h4>
-                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">It takes no time at all
+                <p class="mt-5 text-xs md:text-lg 2md:text-xl lg:text-3xl xl:text-lg text-secondary">It takes no time at
+                  all
                   to integrate Huddle with your app's authentication solution.
                   This means, once signed in to your app, your users can start chatting immediately.</p>
               </div>
@@ -106,20 +120,22 @@
       </section>
     </main>
 
-    <footer class="bg-base mt-56">
+    <footer class="bg-base mt-56 py-8">
       <!-- Container -->
-      <div class="p-5 md:p-10 xl:p-16 text-center">
+      <div class="px-5 md:p-10 xl:p-16 text-center">
         <!-- Call to Action -->
-        <div class="-mt-44 bg-white p-10 md:p-16 xl:px-10 rounded-2xl shadow-[0_0_7px_5px_rgba(0,0,0,0.2) mx-auto shadow-[1px_-9px_16px_2px_rgba(0,0,0,0.2)] xl:w-[650px]">
+        <div
+          class="-mt-44 bg-white p-10 md:p-16 xl:px-10 rounded-2xl shadow-[0_0_7px_5px_rgba(0,0,0,0.2) mx-auto shadow-[1px_-9px_16px_2px_rgba(0,0,0,0.2)] xl:w-[650px]">
           <h2 class="text-base text-xl lg:text-3xl font-bold">Ready To Build Your Community?</h2>
 
           <button class="btn btn-primary mt-10">Get Started For Free</button>
         </div>
 
         <!-- Footer Contents -->
-         <div>
+        <div class="text-primary text-left mt-16 xl:mt-20">
+          <!-- Footer Logo and Contact Details -->
           <!-- Logo -->
-           <div class="w-20 md:w-30 xl:w-40 mt-10">
+          <div class="w-20 md:w-30 xl:w-40 mt-10 xl:mt-0">
             <svg width="240" height="39" xmlns="http://www.w3.org/2000/svg">
               <g fill-rule="nonzero" fill="none">
                 <path
@@ -130,37 +146,58 @@
                   fill="#ffffff" />
               </g>
             </svg>
-           </div>
-           <!-- Address -->
-            <span class="flex items-start gap-2 mt-10 text-primary">
-              <img class="w-12 mt-1" src="images/icon-location.svg" alt="Location Icon">
-              <p class="text-left text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua</p>
-            </span>
-            <!-- Phone -->
-             <span></span>
-             <!-- Email -->
-              <span></span>
-         </div>
-      </div>
+          </div>
+
+          <div class="xl:flex items-start justify-between gap-7 2xl:gap-10 xl:mt-10 mt-16">
+            <div class="xl:w-1/2 text-xl xl:text-lg">
+              <!-- Address -->
+              <span class="flex items-start gap-5 text-primary">
+                <img class="w-5 mt-2" src="images/icon-location.svg" alt="Location Icon">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua</p>
+              </span>
+              
+              <!-- Phone -->
+              <span class="flex items-center gap-5 mt-5">
+                <img class="w-5" src="images/icon-phone.svg" alt="Location Icon">
+                <a href="tel:+1-543-123-4567">+1-543-123-4567</a>
+              </span>
+              
+              <!-- Email -->
+              <span class="flex items-center gap-5 mt-5">
+                <img class="w-5" src="images/icon-email.svg" alt="Location Icon">
+                <a class="text-xl" href="mailto:example@huddle.com">example@huddle.com</a>
+              </span>
+            </div>
+  
+            <ul class="mt-16 text-xl xl:text-lg flex flex-col gap-7 xl:mt-0 xl:w-1/3">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+  
+            <ul class="mt-5 text-xl xl:text-lg flex flex-col gap-7 xl:mt-0 xl:w-1/3">
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+  
+            <div class="flex flex-col justify-center xl:items-start xl:justify-start items-center gap-10 xl:gap-40 mt-16 xl:mt-0 xl:w-1/3">
+              <div class="flex gap-10">
+                <a class="social-icons"
+                  href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="social-icons" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="social-icons" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+  
+              <p class="text-lg xl:text-xs">
+                &copy; Copyright 2018 Huddle. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
     </footer>
-  </div> 
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    
-  </footer>
+  </div>
 </body>
+
 </html>
