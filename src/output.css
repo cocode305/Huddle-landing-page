@@ -186,9 +186,6 @@
   }
 }
 @layer utilities {
-  .static {
-    position: static;
-  }
   .order-1 {
     order: 1;
   }

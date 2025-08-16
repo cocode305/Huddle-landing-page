@@ -23,7 +23,8 @@
     }
 
     .btn-primary {
-        @apply bg-accent text-primary font-poppins text-lg xl:text-xl font-semibold px-8 py-3;
+        @apply bg-accent text-primary font-poppins
+        text-xs md:text-lg xl:text-xl font-semibold px-8 py-3;
     }
 
     .mobile-bg {
